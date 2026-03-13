@@ -41,7 +41,7 @@
             label = "Eisu / Kana";
             #binding-cells = <0>;
             bindings = <&kp LANGUAGE_2>, <&kp LANGUAGE_1>;
-    
+
             tapping-term-ms = <250>;
         };
     };
@@ -51,10 +51,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E                    &kp R      &kp T                                 &kp Y      &kp U  &kp I            &kp O     &kp P
-&kp A             &kp S         &kp D                    &kp F      &kp G  &mkp MB3        &kp COMMA      &kp H      &kp J  &kp K            &kp L     &kp TAB
-&kp Z             &kp X         &kp C                    &kp V      &kp B  &kp ESCAPE      &kp DOT        &kp N      &kp M  &kp RIGHT_SHIFT  &mkp MB1  &mkp MB2
-&kp LEFT_CONTROL  &kp LEFT_ALT  &kp LANG_ZENKAKUHANKAKU  &kp SPACE  &mo 1  &mo 2           &kp BACKSPACE  &kp ENTER                                    &kp DELETE
+&kp Q             &kp W         &kp E  &kp R      &kp T                                 &kp Y      &kp U  &kp I            &kp O     &kp P
+&kp A             &kp S         &kp D  &kp F      &kp G  &mkp MB3        &kp COMMA      &kp H      &kp J  &kp K            &kp L     &kp TAB
+&kp Z             &kp X         &kp C  &kp V      &kp B  &kp ESCAPE      &kp DOT        &kp N      &kp M  &kp RIGHT_SHIFT  &mkp MB1  &mkp MB2
+&kp LEFT_CONTROL  &kp LEFT_ALT  &ek    &kp SPACE  &mo 1  &mo 2           &kp BACKSPACE  &kp ENTER                                    &kp DELETE
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
